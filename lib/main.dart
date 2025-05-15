@@ -1,6 +1,7 @@
 // lib/main.dart
 import 'package:flutter/material.dart';
 import 'arithmetic_view.dart';
+import 'flexible_expanded_view.dart';
 
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: ArithmeticScreenState(), // <-- Use UiTest component here
+      home:FlexibleExpandedView(), // <-- Use UiTest component here
     );
   }
 }
